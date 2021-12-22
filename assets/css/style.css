@@ -70,14 +70,14 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #A9F5D0;
+  background: #808080;
   overflow-y: auto;
 }
 #header .profile img {
   margin: 15px auto;
   display: block;
   width: 120px;
-  border: 8px solid #2c2f3f;
+  border: 8px solid #;
 }
 #header .profile h1 {
   font-size: 24px;
@@ -95,7 +95,7 @@ h1, h2, h3, h4, h5, h6 {
 #header .profile .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #212431;
+  background: #000000;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -107,7 +107,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 #header .profile .social-links a:hover {
-  background: #149ddd;
+  background: #1E90FF;
   color: #fff;
   text-decoration: none;
 }
@@ -173,7 +173,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 24px;
   transition: all 0.4s;
   outline: none !important;
-  background-color: #FF8000;
+  background-color: #00FFFF;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -233,7 +233,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   padding-bottom: 4px;
   letter-spacing: 1px;
-  border-bottom: 3px solid #149ddd;
+  border-bottom: 3px solid #40E0D0;
 }
 @media (min-width: 1024px) {
   #hero {
@@ -261,7 +261,7 @@ section {
 }
 
 .section-bg {
-  background: #f5f8fd;
+  background: #F0FFFF;
 }
 
 .section-title {
@@ -273,7 +273,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #E1F5A9;
+  color: #228B22;
 }
 .section-title h2::after {
   content: "";
@@ -281,7 +281,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #AC58FA;
+  background: #696969;
   bottom: 0;
   left: 0;
 }
@@ -295,7 +295,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #7401DF;
+  color: #00FFFF;
 }
 .about .content ul {
   list-style: none;
@@ -312,7 +312,7 @@ section {
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #FE2EF7;
+  color: #000000;
   line-height: 0;
 }
 .about .content p:last-child {
@@ -332,7 +332,7 @@ section {
 .facts .count-box i {
   display: block;
   font-size: 44px;
-  color: #149ddd;
+  color: #C0C0C0;
   float: left;
   line-height: 0;
 }
@@ -341,7 +341,7 @@ section {
   line-height: 40px;
   display: block;
   font-weight: 700;
-  color: #050d18;
+  color: #FFD700;
   margin-left: 60px;
 }
 .facts .count-box p {
@@ -349,7 +349,7 @@ section {
   margin: 0 0 0 60px;
   font-family: "Raleway", sans-serif;
   font-size: 14px;
-  color: #122f57;
+  color: #000000;
 }
 .facts .count-box a {
   font-weight: 600;
@@ -361,7 +361,7 @@ section {
   transition: ease-in-out 0.3s;
 }
 .facts .count-box a:hover {
-  color: #1f5297;
+  color: #000000;
 }
 
 /*--------------------------------------------------------------
@@ -380,21 +380,21 @@ section {
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #F6CEEC;
+  color: #32CD32;
 }
 .skills .progress .skill .val {
   float: right;
   font-style: normal;
 }
 .skills .progress-bar-wrap {
-  background: #dce8f8;
+  background: #008080;
   height: 10px;
 }
 .skills .progress-bar {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #149ddd;
+  background-color: #00FFFF;
 }
 
 /*--------------------------------------------------------------
@@ -405,12 +405,12 @@ section {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #050d18;
+  color: #7B68EE;
 }
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #1f5297;
+  border-left: 2px solid #696969;
   position: relative;
 }
 .resume .resume-item h4 {
@@ -419,12 +419,12 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #050d18;
+  color: #0000FF;
   margin-bottom: 10px;
 }
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #e4edf9;
+  background: #E0FFFF;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
@@ -448,7 +448,7 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #1f5297;
+  border: 2px solid #4682B4;
 }
 
 /*--------------------------------------------------------------
